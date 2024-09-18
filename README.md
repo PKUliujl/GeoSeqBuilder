@@ -49,11 +49,13 @@ optional arguments:
 EXAMPLE
 =====================
 For repacking, 
-```python run_GeoSeqBuilder.py --purpose 1 --inputPATH examples/ --inputfile 3mpc_A.pdb --outputPATH ./ --chainID A   
+```python
+run_GeoSeqBuilder.py --purpose 1 --inputPATH examples/ --inputfile 3mpc_A.pdb --outputPATH ./ --chainID A   
 ```
 
 For design,  
-```python run_GeoSeqBuilder.py --purpose 0 --inputPATH examples/ --inputfile 3mpc_A.pdb --outputPATH ./ --chainID A
+```python
+run_GeoSeqBuilder.py --purpose 0 --inputPATH examples/ --inputfile 3mpc_A.pdb --outputPATH ./ --chainID A
 ```
 or,
 ```python run_GeoSeqBuilder.py --purpose 2 --inputPATH examples/ --inputfile 3mpc_A.pdb --outputPATH ./ --chainID A
