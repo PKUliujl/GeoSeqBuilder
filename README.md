@@ -8,9 +8,10 @@ The dependent packages for GeoSeqBuilder are listed in the [requirement.txt](htt
 
 INSTALLATION
 ======================
- Users can download it by `git clone https://github.com/PKUliujl/GeoSeqBuilder.git` (without pretrained model's parameters in the [params](https://github.com/PKUliujl/GeoSeqBuilder/blob/geoseqbuilder/params) directory  due to the large size), alternatively, 
+1. Users can download it by `git clone https://github.com/PKUliujl/GeoSeqBuilder.git` (without pretrained model's parameters in the [params](https://github.com/PKUliujl/GeoSeqBuilder/blob/geoseqbuilder/params) directory  due to the large size), alternatively, 
 it is available to access [our disk](https://disk.pku.edu.cn:443/link/449F22FE2A06CD29D3C6DB182F4C38C2) with 
 Access Code `MBYd` to get these files;
+2. Change the PATH of dssp in the [line 158 and 511](https://github.com/PKUliujl/geoseqbuilder/Utils/pdb_processor.py) to your own path
 
 
 Before using GeoSeqBuilder, please check whether the dependent packages are available in your environment (see [requirement.txt](https://github.com/PKUliujl/GeoSeqBuilder/blob/main/requirement.txt)). If not, using `pip` or `conda` to install them.
