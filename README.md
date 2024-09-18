@@ -1,7 +1,7 @@
 # GeoSeqBuilder
 GeoSeqBuilder, an user-friendly tool package based on deep learning, is used for protein backbone-fixed sequence design and simultaneously gives highly accurate side-chain conformations.
 
-![Alt text](https://github.com/PKUliujl/GeoSeqBuilder/blob/main/image/TOC.tif)
+![Alt text](https://github.com/PKUliujl/GeoSeqBuilder/blob/main/image/flow.png)
 
 The dependent packages for GeoSeqBuilder are listed in the [requirement.txt](https://github.com/PKUliujl/GeoSeqBuilder/blob/main/requirement.txt).
 
