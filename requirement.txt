@@ -1,0 +1,9 @@
+torch==1.8.1+cu102
+torch-geometric==1.7.2
+torch-scatter==2.0.7
+torch-sparse==0.6.11
+torchvision==0.9.1+cu111
+biopython==1.79  ##DSSP program is required (see https://biopython.org/docs/1.75/api/Bio.PDB.DSSP.html). A easy way to install it is `conda install -c salilab dssp`, then `cp /*path*/mkdssp /*path*/dssp` .
+tensorflow==2.8.0
+numpy==1.20.2
+pandas==1.3.1
