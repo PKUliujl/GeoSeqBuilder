@@ -5,6 +5,11 @@ import torch,os
 import numpy as np
 import datetime,random
 import torch.nn.functional as F
+import tensorflow as tf
+config = tf.compat.v1.ConfigProto()
+config.gpu_options.per_process_gpu_memory_fraction = 0.1 
+session = tf.compat.v1.Session(config=config)
+
 
 standard_aa_names = {
                    "ALA":0,
