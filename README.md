@@ -75,12 +75,12 @@ CITATION
 If you find GeoSeqBuilder useful in your research, please cite it:
 ```
 @article{liu2024all,
-  title={All-atom protein sequence design based on geometric deep learning},
-  author={Liu, Jiale and Guo, Zheng and Zhang, Changsheng and Lai, Luhua},
-  journal={bioRxiv},
-  pages={2024--03},
+  title={All-Atom Protein Sequence Design Based on Geometric Deep Learning},
+  author={Liu, Jiale and Guo, Zheng and You, Hantian and Zhang, Changsheng and Lai, Luhua},
+  journal={Angewandte Chemie},
+  pages={e202411461},
   year={2024},
-  publisher={Cold Spring Harbor Laboratory}
+  publisher={Wiley Online Library}
 }
 ```
 
