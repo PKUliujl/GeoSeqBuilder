@@ -78,6 +78,8 @@ If you find GeoSeqBuilder useful in your research, please cite it:
   title={All-Atom Protein Sequence Design Based on Geometric Deep Learning},
   author={Liu, Jiale and Guo, Zheng and You, Hantian and Zhang, Changsheng and Lai, Luhua},
   journal={Angewandte Chemie},
+  volume={63},
+  number={50},
   pages={e202411461},
   year={2024},
   publisher={Wiley Online Library}
