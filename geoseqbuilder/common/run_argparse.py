@@ -26,7 +26,8 @@ def run_inputparameters():
         parser.error('--ST, Sampling temperature(scaling factor) belongs to (0,1)')
     if args.SM <0 or args.SM>100:
         parser.error('--SM, random masking rate for sequence initialization belings to (0,100)')
-
+    if args.outputPATH is None:
+        args.outputPATH = args.inputPATH
 
     '''
     if args.seqfile:
